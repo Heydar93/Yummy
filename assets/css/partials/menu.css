@@ -1,0 +1,119 @@
+#menu{
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+.menu-head-section{
+    text-align: center;
+}
+
+.menu-head-section h6{
+    font-size: 13px;
+    letter-spacing: 1px;
+    font-weight: 400;
+    color: #7f7f90;
+    text-transform: uppercase;
+}
+.menu-options-section{
+    padding-top: 35px;
+}
+.menu-head-section h2{
+    font-size: 48px;
+    font-weight: 400;
+}
+.menu-options-section .row{
+    justify-content: center;
+}
+
+.menu-options-section .row li{
+    list-style: none;
+    padding-left: 13px;
+}
+
+.menu-options-section .row a{
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 400;
+    margin: 0;
+    color: rgb(85, 85, 85);
+    border-bottom: 2px solid #7f7f90;
+}
+.menu-options-section .row a:hover{
+    border-bottom: 2px solid red;
+    color: black;
+}
+
+.menu-starters{
+    text-align: center;
+    padding-top: 35px;
+    padding-bottom: 30px;
+}
+
+.menu-starters h6{
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #676775;
+    margin-bottom: 0;
+}
+.menu-starters span{
+    font-size: 36px;
+    color: #CE1212;
+  
+    font-weight: 600;
+
+}
+
+.menu-card-image img{
+    width: 100%;
+    padding: 0 60px;
+}
+
+.menu-card{
+    height: 100%;
+    padding-top: 30px;
+}
+
+.menu-card{
+    text-align: center;
+    
+}
+
+.menu-card h3{
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.menu-card-desc{
+    
+    color: #8d8d9b;
+    margin-bottom: 5px;
+}
+.menu-card-price{
+    font-size: 24px;
+    font-weight: 700;
+    color: #CE1212;
+}
+
+@media screen and (min-width: 600px) and (max-width: 1000px){
+    #menu .container-70 .col-sm-12{
+    width: 100%;
+    }
+    .menu-card{
+        height: 100%;
+        padding-top: 20px;
+    }
+    
+}
+
+@media screen and (min-width: 280px) and (max-width: 599px){
+    .col-sm-12{
+        width: 100%;
+    }
+    .menu-card{
+        height: 350px;
+    }
+
+    .menu-card{
+        height: 100%;
+    }
+}
